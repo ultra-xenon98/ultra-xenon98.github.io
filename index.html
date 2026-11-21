@@ -1,0 +1,1264 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>小白袜子女生 - 原创生活影像品牌_记录真实温暖的日常</title>
+<meta name="description" content="小白袜子女生官方网站，深耕少女生活方式与日常记录的原创视频品牌，以真实温暖的影像陪伴每一位创作者，打造值得信赖的内容社区。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23f6c8d8'/%3E%3Cpath d='M24 14c6 0 9 4 9 10v14c0 5 3 6 6 6 4 0 7 3 7 7s-3 7-8 7c-7 0-11-5-11-12V28c0-5-3-6-6-8z' fill='%23fff'/%3E%3Ccircle cx='20' cy='20' r='4' fill='%23b06a8a'/%3E%3C/svg%3E">
+<style>
+  :root{
+    --xbs-ink:#3a2d34;
+    --xbs-ink-soft:#6f5c66;
+    --xbs-pink:#f4b9cd;
+    --xbs-pink-deep:#d97fa2;
+    --xbs-lilac:#cfc3ea;
+    --xbs-mint:#bfe3d6;
+    --xbs-cream:#fdf7f9;
+    --xbs-white:#ffffff;
+    --xbs-line:#ecdde5;
+    --xbs-shadow:0 14px 34px rgba(120,72,96,.12);
+    --xbs-radius:18px;
+    --xbs-sticky:96px;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;scroll-padding-top:var(--xbs-sticky);}
+  body{
+    margin:0;
+    font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif;
+    color:var(--xbs-ink);
+    background:var(--xbs-cream);
+    line-height:1.75;
+    -webkit-font-smoothing:antialiased;
+  }
+  img{max-width:100%;display:block;}
+  a{color:inherit;text-decoration:none;}
+  h1,h2,h3,h4{margin:0;line-height:1.35;font-weight:700;}
+  p{margin:0 0 1em;}
+  ul{margin:0;padding:0;list-style:none;}
+  button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit;}
+  .xbs-wrap{width:min(1180px,92vw);margin:0 auto;}
+  .xbs-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);}
+
+  /* ---------- 吸顶区 ---------- */
+  .xbs-sticky-head{position:sticky;top:0;z-index:80;}
+  .xbs-notice-bar{
+    background:linear-gradient(90deg,#d97fa2,#b48fd6 55%,#8fbfd8);
+    color:#fff;
+    font-size:13.5px;
+    padding:9px 0;
+  }
+  .xbs-notice-bar .xbs-wrap{display:flex;align-items:center;gap:12px;}
+  .xbs-notice-tag{
+    flex:none;background:rgba(255,255,255,.22);border:1px solid rgba(255,255,255,.5);
+    border-radius:999px;padding:1px 10px;font-size:12px;letter-spacing:.08em;
+  }
+  .xbs-notice-text{flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+  .xbs-notice-link{flex:none;font-size:12.5px;border-bottom:1px dashed rgba(255,255,255,.7);}
+  .xbs-header{background:rgba(255,255,255,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--xbs-line);}
+  .xbs-header .xbs-wrap{display:flex;align-items:center;gap:22px;padding:12px 0;}
+  .xbs-logo{display:flex;align-items:center;gap:10px;flex:none;}
+  .xbs-logo-mark{width:38px;height:38px;border-radius:12px;background:linear-gradient(135deg,var(--xbs-pink),var(--xbs-lilac));display:grid;place-items:center;color:#fff;font-weight:800;font-size:16px;box-shadow:0 6px 14px rgba(217,127,162,.35);}
+  .xbs-logo-text b{display:block;font-size:16.5px;letter-spacing:.02em;}
+  .xbs-logo-text span{display:block;font-size:11px;color:var(--xbs-ink-soft);letter-spacing:.22em;}
+  .xbs-nav{flex:1;display:flex;gap:4px;flex-wrap:wrap;}
+  .xbs-nav a{
+    padding:8px 11px;border-radius:10px;font-size:14.5px;color:var(--xbs-ink-soft);transition:.2s;
+  }
+  .xbs-nav a:hover{background:#fbeef4;color:var(--xbs-pink-deep);}
+  .xbs-search{
+    position:relative;flex:none;display:flex;align-items:center;gap:8px;
+    background:#fbf1f5;border:1px solid var(--xbs-line);border-radius:999px;padding:5px 6px 5px 14px;
+  }
+  .xbs-search input{
+    border:none;background:transparent;outline:none;font-size:13.5px;width:150px;color:var(--xbs-ink);
+  }
+  .xbs-search button{
+    background:var(--xbs-pink-deep);color:#fff;border-radius:999px;font-size:13px;padding:5px 13px;
+  }
+  .xbs-search-feedback{
+    position:absolute;top:calc(100% + 8px);left:0;right:0;background:#fff;border:1px solid var(--xbs-line);
+    border-radius:12px;box-shadow:var(--xbs-shadow);padding:10px 12px;font-size:13px;color:var(--xbs-ink-soft);
+    display:none;
+  }
+  .xbs-search-feedback.is-open{display:block;}
+  .xbs-burger{
+    display:none;flex-direction:column;gap:4px;padding:8px;border-radius:10px;border:1px solid var(--xbs-line);
+  }
+  .xbs-burger span{width:20px;height:2px;background:var(--xbs-ink);border-radius:2px;}
+
+  /* ---------- 通用区块 ---------- */
+  .xbs-section{padding:64px 0;}
+  .xbs-section--tint{background:#fdf2f6;}
+  .xbs-section--lilac{background:#f7f4fd;}
+  .xbs-section-head{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:30px;flex-wrap:wrap;}
+  .xbs-kicker{font-size:12.5px;letter-spacing:.24em;color:var(--xbs-pink-deep);font-weight:700;margin-bottom:6px;}
+  .xbs-section-head h2{font-size:clamp(21px,2.6vw,28px);}
+  .xbs-section-head p{max-width:560px;color:var(--xbs-ink-soft);font-size:14px;margin:6px 0 0;}
+  .xbs-btn{
+    display:inline-flex;align-items:center;gap:7px;border-radius:999px;padding:10px 22px;font-size:14px;font-weight:600;
+    transition:transform .18s,box-shadow .18s,background .18s;
+  }
+  .xbs-btn--solid{background:var(--xbs-pink-deep);color:#fff;box-shadow:0 8px 18px rgba(217,127,162,.32);}
+  .xbs-btn--solid:hover{transform:translateY(-2px);box-shadow:0 12px 24px rgba(217,127,162,.4);}
+  .xbs-btn--ghost{border:1.5px solid var(--xbs-pink-deep);color:var(--xbs-pink-deep);background:#fff;}
+  .xbs-btn--ghost:hover{background:#fdeef4;}
+  .xbs-btn--soft{background:#fff;color:var(--xbs-ink);border:1px solid var(--xbs-line);}
+  .xbs-btn--soft:hover{border-color:var(--xbs-pink);color:var(--xbs-pink-deep);}
+
+  /* ---------- 首屏 ---------- */
+  .xbs-hero{padding:56px 0 20px;background:radial-gradient(900px 420px at 88% 0%,#fbe4ee 0%,transparent 62%),radial-gradient(700px 380px at 0% 90%,#eef0fb 0%,transparent 60%);}
+  .xbs-hero-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:48px;align-items:center;}
+  .xbs-hero-badge{display:inline-flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--xbs-line);border-radius:999px;padding:5px 14px;font-size:12.5px;color:var(--xbs-ink-soft);margin-bottom:16px;}
+  .xbs-hero-badge i{width:7px;height:7px;border-radius:50%;background:var(--xbs-mint);display:inline-block;}
+  .xbs-hero h1{font-size:clamp(40px,6.4vw,72px);letter-spacing:.02em;line-height:1.1;}
+  .xbs-hero h1 em{font-style:normal;color:var(--xbs-pink-deep);}
+  .xbs-hero-lead{margin:18px 0 8px;font-size:clamp(16px,1.9vw,19px);font-weight:600;color:#5c4652;}
+  .xbs-hero-intro{color:var(--xbs-ink-soft);font-size:14.6px;max-width:520px;}
+  .xbs-hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin:24px 0 28px;}
+  .xbs-hero-stats{display:flex;gap:34px;flex-wrap:wrap;border-top:1px dashed var(--xbs-line);padding-top:20px;}
+  .xbs-hero-stats b{display:block;font-size:24px;color:var(--xbs-pink-deep);letter-spacing:.01em;}
+  .xbs-hero-stats span{font-size:12.5px;color:var(--xbs-ink-soft);letter-spacing:.06em;}
+  .xbs-hero-visual{position:relative;}
+  .xbs-hero-visual .xbs-video-frame{
+    position:relative;border-radius:24px;overflow:hidden;box-shadow:var(--xbs-shadow);border:6px solid #fff;
+    background:#fff;
+  }
+  .xbs-hero-visual .xbs-video-frame img{width:100%;aspect-ratio:16/10;object-fit:cover;}
+  .xbs-play-badge{
+    position:absolute;inset:auto;left:50%;top:50%;transform:translate(-50%,-50%);
+    width:66px;height:66px;border-radius:50%;background:rgba(255,255,255,.9);display:grid;place-items:center;
+    box-shadow:0 10px 26px rgba(120,72,96,.3);
+  }
+  .xbs-play-badge::after{content:"";border-left:18px solid var(--xbs-pink-deep);border-top:11px solid transparent;border-bottom:11px solid transparent;margin-left:5px;}
+  .xbs-hero-float{
+    position:absolute;right:-10px;bottom:-18px;background:#fff;border-radius:16px;padding:12px 16px;
+    box-shadow:var(--xbs-shadow);font-size:12.5px;color:var(--xbs-ink-soft);display:flex;align-items:center;gap:10px;
+  }
+  .xbs-hero-float b{color:var(--xbs-ink);font-size:14px;display:block;}
+  .xbs-avatar-mini{width:34px;height:34px;border-radius:50%;background:linear-gradient(135deg,var(--xbs-mint),#8fbfd8);display:grid;place-items:center;color:#fff;font-weight:700;font-size:13px;}
+
+  /* ---------- 品牌解析长文 ---------- */
+  .xbs-about-grid{display:grid;grid-template-columns:260px 1fr;gap:44px;}
+  .xbs-about-aside{position:sticky;top:calc(var(--xbs-sticky) + 20px);align-self:start;}
+  .xbs-about-aside h3{font-size:17px;margin-bottom:10px;}
+  .xbs-about-aside p{font-size:13.4px;color:var(--xbs-ink-soft);}
+  .xbs-about-aside .xbs-tag-cloud{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px;}
+  .xbs-tag{font-size:12px;padding:4px 11px;border-radius:999px;background:#fff;border:1px solid var(--xbs-line);color:var(--xbs-ink-soft);}
+  .xbs-prose h3{font-size:17.5px;margin:26px 0 10px;padding-left:12px;border-left:4px solid var(--xbs-pink);}
+  .xbs-prose h3:first-child{margin-top:0;}
+  .xbs-prose p{font-size:14.8px;color:#544449;text-align:justify;}
+  .xbs-prose strong{color:var(--xbs-pink-deep);}
+
+  /* ---------- 焦点视频 ---------- */
+  .xbs-focus-grid{display:grid;grid-template-columns:1.35fr 1fr;gap:24px;}
+  .xbs-focus-main{position:relative;border-radius:var(--xbs-radius);overflow:hidden;box-shadow:var(--xbs-shadow);background:#fff;}
+  .xbs-focus-main img{width:100%;aspect-ratio:16/9;object-fit:cover;transition:transform .5s;}
+  .xbs-focus-main:hover img{transform:scale(1.04);}
+  .xbs-focus-main-body{position:absolute;left:0;right:0;bottom:0;padding:26px 24px 22px;background:linear-gradient(transparent,rgba(44,28,38,.82));color:#fff;}
+  .xbs-focus-main-body h3{font-size:21px;margin-bottom:8px;}
+  .xbs-focus-main-body p{font-size:13.5px;color:#f3e2e9;margin:0 0 10px;}
+  .xbs-meta{display:flex;align-items:center;gap:14px;font-size:12.5px;flex-wrap:wrap;}
+  .xbs-focus-main-body .xbs-meta{color:#f0d8e3;}
+  .xbs-focus-side{display:grid;gap:16px;}
+  .xbs-focus-item{display:grid;grid-template-columns:120px 1fr;gap:14px;background:#fff;border:1px solid var(--xbs-line);border-radius:14px;overflow:hidden;transition:.22s;}
+  .xbs-focus-item:hover{transform:translateY(-3px);box-shadow:var(--xbs-shadow);border-color:#f2c6d8;}
+  .xbs-focus-item img{width:120px;height:100%;object-fit:cover;}
+  .xbs-focus-item div{padding:10px 12px 10px 0;}
+  .xbs-focus-item h4{font-size:14.4px;margin-bottom:4px;}
+  .xbs-focus-item p{font-size:12.4px;color:var(--xbs-ink-soft);margin:0;}
+  .xbs-tagline{display:inline-block;font-size:11.5px;color:var(--xbs-pink-deep);background:#fdeef4;border-radius:6px;padding:1px 8px;margin-bottom:5px;}
+
+  /* ---------- 视频卡片流 ---------- */
+  .xbs-filter-bar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:24px;}
+  .xbs-chip{font-size:13px;padding:6px 15px;border-radius:999px;background:#fff;border:1px solid var(--xbs-line);color:var(--xbs-ink-soft);transition:.18s;}
+  .xbs-chip.is-active,.xbs-chip:hover{background:var(--xbs-pink-deep);border-color:var(--xbs-pink-deep);color:#fff;}
+  .xbs-flow{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;}
+  .xbs-card{background:#fff;border-radius:var(--xbs-radius);overflow:hidden;border:1px solid var(--xbs-line);display:flex;flex-direction:column;transition:transform .22s,box-shadow .22s,border-color .22s;}
+  .xbs-card:hover{transform:translateY(-5px);box-shadow:var(--xbs-shadow);border-color:#f2c6d8;}
+  .xbs-card.is-hidden{display:none;}
+  .xbs-card-cover{position:relative;overflow:hidden;}
+  .xbs-card-cover img{width:100%;aspect-ratio:16/9;object-fit:cover;transition:transform .5s;}
+  .xbs-card:hover .xbs-card-cover img{transform:scale(1.05);}
+  .xbs-card-cover .xbs-dur{position:absolute;right:10px;bottom:10px;background:rgba(40,24,34,.72);color:#fff;font-size:11.5px;padding:2px 8px;border-radius:6px;}
+  .xbs-card-cover .xbs-cover-tag{position:absolute;left:10px;top:10px;background:rgba(255,255,255,.92);color:var(--xbs-pink-deep);font-size:11.5px;padding:2px 9px;border-radius:999px;font-weight:600;}
+  .xbs-card-body{padding:14px 16px 6px;flex:1;}
+  .xbs-card-body h3{font-size:15.2px;margin-bottom:6px;}
+  .xbs-card-body p{font-size:12.9px;color:var(--xbs-ink-soft);margin:0 0 10px;}
+  .xbs-author-line{display:flex;align-items:center;gap:8px;font-size:12.4px;color:var(--xbs-ink-soft);padding:0 16px 12px;}
+  .xbs-avatar{width:26px;height:26px;border-radius:50%;display:grid;place-items:center;font-size:12px;font-weight:700;color:#fff;flex:none;}
+  .xbs-card-foot{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:10px 16px 14px;border-top:1px dashed var(--xbs-line);font-size:12.3px;color:var(--xbs-ink-soft);}
+  .xbs-card-foot .xbs-acts{display:flex;gap:6px;}
+  .xbs-act{border-radius:999px;padding:3px 10px;border:1px solid var(--xbs-line);font-size:12px;background:#fff;transition:.16s;}
+  .xbs-act:hover{border-color:var(--xbs-pink);color:var(--xbs-pink-deep);}
+  .xbs-act.is-liked{background:#fde6ef;border-color:#f2c6d8;color:var(--xbs-pink-deep);font-weight:700;}
+  .xbs-act.is-saved{background:#fff5d9;border-color:#f0dc9c;color:#a98314;font-weight:700;}
+
+  /* ---------- 专题 ---------- */
+  .xbs-topic-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
+  .xbs-topic{position:relative;border-radius:var(--xbs-radius);overflow:hidden;min-height:220px;display:flex;align-items:flex-end;color:#fff;box-shadow:var(--xbs-shadow);}
+  .xbs-topic img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .5s;}
+  .xbs-topic:hover img{transform:scale(1.06);}
+  .xbs-topic-body{position:relative;padding:20px;background:linear-gradient(transparent,rgba(40,24,34,.86));width:100%;}
+  .xbs-topic-body h3{font-size:17px;margin-bottom:6px;}
+  .xbs-topic-body p{font-size:12.6px;color:#f0d8e3;margin:0 0 8px;}
+  .xbs-topic-status{font-size:11.5px;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.45);border-radius:999px;padding:2px 10px;}
+
+  /* ---------- 创作者 ---------- */
+  .xbs-creator-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;}
+  .xbs-creator{background:#fff;border:1px solid var(--xbs-line);border-radius:var(--xbs-radius);padding:20px 18px;text-align:center;transition:.22s;}
+  .xbs-creator:hover{transform:translateY(-4px);box-shadow:var(--xbs-shadow);border-color:#f2c6d8;}
+  .xbs-creator .xbs-avatar{width:60px;height:60px;font-size:22px;margin:0 auto 12px;}
+  .xbs-creator h3{font-size:15.4px;}
+  .xbs-creator .xbs-field{font-size:12px;color:var(--xbs-pink-deep);margin:4px 0 8px;}
+  .xbs-creator p{font-size:12.6px;color:var(--xbs-ink-soft);margin:0 0 12px;min-height:58px;}
+  .xbs-creator-data{display:flex;justify-content:center;gap:16px;font-size:12px;color:var(--xbs-ink-soft);border-top:1px dashed var(--xbs-line);padding-top:10px;margin-bottom:12px;}
+  .xbs-creator-data b{display:block;color:var(--xbs-ink);font-size:14px;}
+
+  /* ---------- 故事 ---------- */
+  .xbs-story-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
+  .xbs-story{background:#fff;border-radius:var(--xbs-radius);padding:24px 22px;border:1px solid var(--xbs-line);position:relative;}
+  .xbs-story::before{content:"“";position:absolute;top:6px;right:18px;font-size:52px;color:#f6dde8;font-family:Georgia,serif;line-height:1;}
+  .xbs-story h3{font-size:15.6px;margin-bottom:8px;position:relative;}
+  .xbs-story p{font-size:13.4px;color:#544449;position:relative;}
+  .xbs-story .xbs-story-sign{font-size:12.2px;color:var(--xbs-ink-soft);}
+
+  /* ---------- 影像墙 ---------- */
+  .xbs-wall{display:grid;grid-template-columns:repeat(6,1fr);gap:14px;}
+  .xbs-wall figure{margin:0;border-radius:14px;overflow:hidden;position:relative;background:#fff;border:1px solid var(--xbs-line);}
+  .xbs-wall figure img{width:100%;height:100%;object-fit:cover;transition:transform .5s;}
+  .xbs-wall figure:hover img{transform:scale(1.06);}
+  .xbs-wall figcaption{position:absolute;left:0;right:0;bottom:0;font-size:11.6px;color:#fff;padding:16px 10px 8px;background:linear-gradient(transparent,rgba(40,24,34,.8));}
+  .xbs-wall .xbs-wall-l{grid-column:span 3;grid-row:span 2;}
+  .xbs-wall .xbs-wall-m{grid-column:span 2;}
+  .xbs-wall .xbs-wall-s{grid-column:span 1;}
+  .xbs-wall .xbs-wall-l img{aspect-ratio:16/11;}
+  .xbs-wall .xbs-wall-m img{aspect-ratio:16/10;}
+  .xbs-wall .xbs-wall-s img{aspect-ratio:1/1;}
+
+  /* ---------- 评论 ---------- */
+  .xbs-review-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;}
+  .xbs-review{background:#fff;border-radius:16px;padding:18px 18px 16px;border:1px solid var(--xbs-line);}
+  .xbs-review-head{display:flex;align-items:center;gap:10px;margin-bottom:10px;}
+  .xbs-review-head b{font-size:13.6px;}
+  .xbs-review-head span{font-size:11.6px;color:var(--xbs-ink-soft);display:block;font-weight:400;}
+  .xbs-review p{font-size:13.2px;color:#544449;margin:0;}
+  .xbs-review-stars{color:#e9a93b;font-size:12.5px;letter-spacing:2px;margin-bottom:6px;}
+
+  /* ---------- FAQ ---------- */
+  .xbs-faq{max-width:880px;margin:0 auto;}
+  .xbs-faq details{background:#fff;border:1px solid var(--xbs-line);border-radius:14px;margin-bottom:12px;overflow:hidden;}
+  .xbs-faq summary{
+    padding:15px 46px 15px 20px;font-size:14.6px;font-weight:600;cursor:pointer;position:relative;list-style:none;
+  }
+  .xbs-faq summary::-webkit-details-marker{display:none;}
+  .xbs-faq summary::after{
+    content:"+";position:absolute;right:18px;top:50%;transform:translateY(-50%);font-size:20px;color:var(--xbs-pink-deep);font-weight:400;
+  }
+  .xbs-faq details[open] summary::after{content:"–";}
+  .xbs-faq details p{padding:0 20px 16px;font-size:13.6px;color:#544449;margin:0;}
+
+  /* ---------- 动态 / 合作 ---------- */
+  .xbs-split{display:grid;grid-template-columns:1.15fr .85fr;gap:28px;}
+  .xbs-news{background:#fff;border-radius:var(--xbs-radius);border:1px solid var(--xbs-line);padding:24px;}
+  .xbs-news h3{font-size:16.5px;margin-bottom:14px;}
+  .xbs-news li{display:flex;gap:14px;padding:12px 0;border-bottom:1px dashed var(--xbs-line);}
+  .xbs-news li:last-child{border-bottom:none;padding-bottom:0;}
+  .xbs-news time{flex:none;font-size:12.4px;color:var(--xbs-pink-deep);font-weight:700;letter-spacing:.02em;}
+  .xbs-news b{font-size:13.8px;display:block;}
+  .xbs-news span{font-size:12.6px;color:var(--xbs-ink-soft);}
+  .xbs-partner{background:linear-gradient(150deg,#fdf0f6,#eef1fb);border-radius:var(--xbs-radius);padding:24px;border:1px solid var(--xbs-line);}
+  .xbs-partner h3{font-size:16.5px;margin-bottom:8px;}
+  .xbs-partner p{font-size:13.2px;color:var(--xbs-ink-soft);}
+  .xbs-partner-list{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:14px;}
+  .xbs-partner-list span{background:#fff;border:1px solid var(--xbs-line);border-radius:10px;padding:9px 12px;font-size:12.8px;text-align:center;color:#5c4652;}
+
+  /* ---------- 联系 ---------- */
+  .xbs-contact{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:stretch;}
+  .xbs-contact-card{background:#fff;border:1px solid var(--xbs-line);border-radius:var(--xbs-radius);padding:26px;}
+  .xbs-contact-card h3{font-size:18px;margin-bottom:12px;}
+  .xbs-contact-card p{font-size:13.6px;color:var(--xbs-ink-soft);}
+  .xbs-contact-list{display:grid;gap:10px;margin:16px 0 20px;}
+  .xbs-contact-list li{font-size:13.6px;color:#544449;display:flex;gap:10px;}
+  .xbs-contact-list li b{color:var(--xbs-pink-deep);flex:none;width:64px;}
+  .xbs-contact-actions{display:flex;gap:10px;flex-wrap:wrap;}
+  .xbs-cta-panel{
+    background:linear-gradient(140deg,#d97fa2,#b48fd6);border-radius:var(--xbs-radius);color:#fff;padding:30px 28px;
+    display:flex;flex-direction:column;justify-content:center;
+  }
+  .xbs-cta-panel h3{font-size:20px;margin-bottom:10px;}
+  .xbs-cta-panel p{font-size:13.6px;color:#fdeef4;}
+  .xbs-cta-panel .xbs-btn{background:#fff;color:var(--xbs-pink-deep);align-self:flex-start;margin-top:8px;}
+
+  /* ---------- 页脚 ---------- */
+  .xbs-footer{background:#33262d;color:#e9dbe2;padding:52px 0 26px;font-size:13.2px;}
+  .xbs-footer-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:28px;}
+  .xbs-footer h4{font-size:14px;margin-bottom:12px;color:#fff;}
+  .xbs-footer a{color:#d9c6d0;}
+  .xbs-footer a:hover{color:var(--xbs-pink);}
+  .xbs-footer li{margin-bottom:8px;}
+  .xbs-footer .xbs-logo-text b{color:#fff;}
+  .xbs-footer .xbs-logo-text span{color:#b79faa;}
+  .xbs-footer-bottom{margin-top:32px;padding-top:18px;border-top:1px solid rgba(255,255,255,.12);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;color:#a9919c;font-size:12.4px;}
+
+  /* ---------- 浮动元素 ---------- */
+  .xbs-toast{
+    position:fixed;left:50%;bottom:32px;transform:translate(-50%,20px);background:#33262d;color:#fff;
+    padding:10px 20px;border-radius:999px;font-size:13px;opacity:0;pointer-events:none;transition:.28s;z-index:200;
+  }
+  .xbs-toast.is-show{opacity:1;transform:translate(-50%,0);}
+  .xbs-to-top{
+    position:fixed;right:22px;bottom:26px;width:44px;height:44px;border-radius:50%;background:#fff;
+    border:1px solid var(--xbs-line);box-shadow:var(--xbs-shadow);display:grid;place-items:center;font-size:17px;
+    color:var(--xbs-pink-deep);opacity:0;pointer-events:none;transition:.25s;z-index:120;
+  }
+  .xbs-to-top.is-show{opacity:1;pointer-events:auto;}
+  .xbs-modal{
+    position:fixed;inset:0;background:rgba(44,28,38,.5);display:none;place-items:center;padding:20px;z-index:180;
+  }
+  .xbs-modal.is-open{display:grid;}
+  .xbs-modal-card{background:#fff;border-radius:20px;max-width:460px;width:100%;padding:26px;box-shadow:0 30px 60px rgba(44,28,38,.3);}
+  .xbs-modal-card h3{font-size:18px;margin-bottom:10px;}
+  .xbs-modal-card p{font-size:13.6px;color:var(--xbs-ink-soft);}
+  .xbs-modal-card .xbs-modal-close{float:right;font-size:20px;color:var(--xbs-ink-soft);line-height:1;}
+  .xbs-share-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px;}
+  .xbs-share-row button{flex:1;min-width:88px;border:1px solid var(--xbs-line);border-radius:10px;padding:9px;font-size:13px;background:#fdf7f9;}
+  .xbs-share-row button:hover{border-color:var(--xbs-pink);color:var(--xbs-pink-deep);}
+
+  /* ---------- 响应式 ---------- */
+  @media (max-width:1024px){
+    .xbs-hero-grid{grid-template-columns:1fr;gap:32px;}
+    .xbs-about-grid{grid-template-columns:1fr;gap:24px;}
+    .xbs-about-aside{position:static;}
+    .xbs-focus-grid{grid-template-columns:1fr;}
+    .xbs-flow{grid-template-columns:repeat(2,1fr);}
+    .xbs-topic-grid{grid-template-columns:repeat(2,1fr);}
+    .xbs-creator-grid{grid-template-columns:repeat(2,1fr);}
+    .xbs-story-grid{grid-template-columns:1fr;}
+    .xbs-review-grid{grid-template-columns:repeat(2,1fr);}
+    .xbs-split{grid-template-columns:1fr;}
+    .xbs-contact{grid-template-columns:1fr;}
+    .xbs-footer-grid{grid-template-columns:1fr 1fr;}
+  }
+  @media (max-width:760px){
+    :root{--xbs-sticky:88px;}
+    .xbs-header .xbs-wrap{flex-wrap:wrap;gap:12px;}
+    .xbs-burger{display:flex;}
+    .xbs-nav{order:3;width:100%;display:none;flex-direction:column;gap:2px;padding:6px 0;}
+    .xbs-nav.is-open{display:flex;}
+    .xbs-search{order:2;margin-left:auto;padding:4px 5px 4px 12px;}
+    .xbs-search input{width:112px;}
+    .xbs-notice-text{font-size:12.4px;}
+    .xbs-flow{grid-template-columns:1fr;}
+    .xbs-topic-grid{grid-template-columns:1fr;}
+    .xbs-creator-grid{grid-template-columns:1fr;}
+    .xbs-review-grid{grid-template-columns:1fr;}
+    .xbs-wall{grid-template-columns:repeat(2,1fr);}
+    .xbs-wall .xbs-wall-l,.xbs-wall .xbs-wall-m,.xbs-wall .xbs-wall-s{grid-column:span 1;grid-row:auto;}
+    .xbs-wall figure img{aspect-ratio:4/3;}
+    .xbs-section{padding:46px 0;}
+    .xbs-footer-grid{grid-template-columns:1fr;}
+    .xbs-hero-stats{gap:22px;}
+  }
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<div class="xbs-sticky-head">
+  <div class="xbs-notice-bar">
+    <div class="xbs-wrap">
+      <span class="xbs-notice-tag">官方发布</span>
+      <span class="xbs-notice-text">11月更新：冬季「小白袜子写真企划」征稿开启，同城创作者见面会报名同步上线。</span>
+      <a class="xbs-notice-link" href="#xbs-dynamic">查看更新</a>
+    </div>
+  </div>
+  <header class="xbs-header">
+    <div class="xbs-wrap">
+      <a class="xbs-logo" href="#xbs-top" aria-label="小白袜子女生官网首页">
+        <span class="xbs-logo-mark">白</span>
+        <span class="xbs-logo-text"><b>小白袜子女生</b><span>XIAOBAI SOCKS</span></span>
+      </a>
+      <nav class="xbs-nav" id="xbsNav" aria-label="主导航">
+        <a href="#xbs-top">首页</a>
+        <a href="#xbs-focus">焦点影像</a>
+        <a href="#xbs-topic">专题企划</a>
+        <a href="#xbs-creator">创作者</a>
+        <a href="#xbs-story">故事随笔</a>
+        <a href="#xbs-dynamic">品牌动态</a>
+        <a href="#xbs-faq">帮助</a>
+        <a href="#xbs-contact">联系</a>
+      </nav>
+      <form class="xbs-search" id="xbsSearch" role="search" onsubmit="return false;">
+        <label class="xbs-sr" for="xbsSearchInput">站内搜索</label>
+        <input id="xbsSearchInput" type="search" placeholder="搜索影像 / 创作者 / 话题" autocomplete="off">
+        <button type="submit" id="xbsSearchBtn">搜索</button>
+        <div class="xbs-search-feedback" id="xbsSearchFeedback" role="status" aria-live="polite"></div>
+      </form>
+      <button class="xbs-burger" id="xbsBurger" aria-label="展开导航" aria-expanded="false" aria-controls="xbsNav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+</div>
+
+<main id="xbs-top">
+
+  <!-- 首屏 -->
+  <section class="xbs-hero">
+    <div class="xbs-wrap xbs-hero-grid">
+      <div>
+        <span class="xbs-hero-badge"><i></i>小白袜子女生官方网站 · 原创生活影像品牌</span>
+        <h1>小白袜子<em>女生</em></h1>
+        <p class="xbs-hero-lead">把日常穿在脚上，把温柔留在镜头里。</p>
+        <p class="xbs-hero-intro">作为一家深耕少女生活方式影像的原创视频品牌，我们以真实、温暖、有质感的镜头，记录袜装、穿搭、居家与校园日常。平台汇聚专业创作者与多元内容生态，坚持正版高清出品，为每一位用户提供值得信赖的精品内容与社区陪伴。</p>
+        <div class="xbs-hero-actions">
+          <a class="xbs-btn xbs-btn--solid" href="#xbs-focus">进入焦点影像</a>
+          <a class="xbs-btn xbs-btn--ghost" href="#xbs-creator">认识创作者</a>
+          <button class="xbs-btn xbs-btn--soft" type="button" data-xbs-submit>投稿入口</button>
+        </div>
+        <div class="xbs-hero-stats">
+          <div><b>1860+</b><span>原创影像作品</span></div>
+          <div><b>42.6万</b><span>社区用户陪伴</span></div>
+          <div><b>128位</b><span>签约创作者</span></div>
+        </div>
+      </div>
+      <div class="xbs-hero-visual">
+        <div class="xbs-video-frame">
+          <img src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 400'%3E%3Cdefs%3E%3ClinearGradient id='g1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23fbe4ee'/%3E%3Cstop offset='1' stop-color='%23dfe6f8'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='640' height='400' fill='url(%23g1)'/%3E%3Ccircle cx='470' cy='110' r='74' fill='%23f4b9cd' opacity='.6'/%3E%3Crect x='70' y='210' width='150' height='120' rx='16' fill='%23ffffff' opacity='.85'/%3E%3Cpath d='M96 232h98M96 254h72M96 276h88' stroke='%23d97fa2' stroke-width='7' stroke-linecap='round'/%3E%3Cpath d='M300 300c0-42 32-64 62-64s62 22 62 64z' fill='%23ffffff' opacity='.9'/%3E%3Cpath d='M330 300v-46c0-10 8-16 16-16s16 6 16 16v46' stroke='%23b48fd6' stroke-width='6' fill='none'/%3E%3Cpath d='M380 292h56M380 264h34' stroke='%23d97fa2' stroke-width='6' stroke-linecap='round'/%3E%3Ctext x='78' y='372' font-size='20' fill='%236f5c66' font-family='sans-serif'%3E%E7%A7%8B%E5%86%AC%E6%A0%A1%E5%9B%AD%E6%97%A5%E5%B8%B8%E7%BA%AA%E5%BD%95%3C/text%3E%3C/svg%3E" alt="小白袜子女生秋冬校园日常影像封面">
+          <span class="xbs-play-badge" aria-hidden="true"></span>
+        </div>
+        <div class="xbs-hero-float">
+          <span class="xbs-avatar-mini">柚</span>
+          <span><b>本周更新 12 条</b>由创作者「栗子柚」首发</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 品牌解析 -->
+  <section class="xbs-section" id="xbs-about">
+    <div class="xbs-wrap">
+      <div class="xbs-section-head">
+        <div>
+          <div class="xbs-kicker">BRAND INSIGHT</div>
+          <h2>关于小白袜子女生：一个关于质感与陪伴的视频品牌</h2>
+          <p>我们相信，一双干净的小白袜子，是日常里最容易忽略、也最能体现生活态度的细节。</p>
+        </div>
+        <a class="xbs-btn xbs-btn--soft" href="#xbs-story">阅读品牌故事</a>
+      </div>
+      <div class="xbs-about-grid">
+        <aside class="xbs-about-aside">
+          <h3>关键词定位</h3>
+          <p>小白袜子女生，属于生活方式与兴趣类内容关键词，指向少女日常穿搭、袜装搭配与温柔系影像表达。</p>
+          <div class="xbs-tag-cloud">
+            <span class="xbs-tag">生活方式</span>
+            <span class="xbs-tag">日常记录</span>
+            <span class="xbs-tag">穿搭美学</span>
+            <span class="xbs-tag">原创影像</span>
+            <span class="xbs-tag">社区共创</span>
+            <span class="xbs-tag">品牌故事</span>
+          </div>
+        </aside>
+        <div class="xbs-prose">
+          <h3>品牌缘起：从一个鞋柜角落开始的记录</h3>
+          <p>小白袜子女生诞生于一份朴素的观察——在无数个清晨，女孩们弯腰系鞋带、把袜子拉整齐的那几秒，安静又认真。我们把这些微小的瞬间做成影像，于是有了这个以<strong>小白袜子女生</strong>为名的原创视频品牌。作为官方网站，我们并不追逐猎奇，而是把镜头对准真实的日常：校园长椅上晃动的脚踝、梅雨季晾在窗边的白袜、通勤包里折好的备用棉袜。这些画面共同构成了一个专注于少女生活方式的垂直领域内容生态，让每一位用户在浏览时都能找到熟悉的自己。</p>
+          <h3>内容方向：原创、正版、高清的日常影像</h3>
+          <p>我们是持续运营的视频品牌，坚持原创出品与正版授权，所有影像以高清规格呈现。内容主要围绕五条线索展开：其一是袜装搭配，从纯白短袜、蕾丝边袜到堆堆袜的四季穿法；其二是穿搭记录，把袜子放进整体造型里讲清楚逻辑；其三是居家日常，柔软、治愈、不摆拍的生活切片；其四是城市探索，用脚步丈量街巷，让白袜成为行走的注脚；其五是创作者访谈，聊一聊镜头之外的成长与坚持。平台通过标签体系与专题企划，把这些线索编织成可持续生长的内容生态网络。</p>
+          <h3>创作者生态：给认真表达的人一个家</h3>
+          <p>小白袜子女生不是一个人的频道，而是一个由专业创作者共同支撑的社区。签约创作者既有擅长自然光拍摄的摄影系学生，也有做袜装测评三年的独立买手，还有把家务日常拍成治愈影像的宝妈。我们提供稳定的发布计划、清晰的创作指南、适度的流量扶持和真诚的编辑建议，让<strong>小白袜子女生</strong>的内容品质始终维持在高位。企业、品牌方与创作者之间保持透明合作，从脚本到成片都有明确流程，这正是我们被用户称为值得信赖的原因。</p>
+          <h3>社区温度：陪伴比流量更重要</h3>
+          <p>我们始终把用户放在第一位。评论区不追求最快，而追求认真：有人分享自己终于学会把袜子叠成整齐方块，有人问棉袜起球怎么办，也有人只是留下一句「今天也要好好穿袜子」。这些细碎的声音，被我们视为社区最珍贵的资产。平台定期举办小型比赛与投票，鼓励普通用户上传自己的日常片段；也会邀请创作者做公益性的穿搭科普，让影响力真正落到生活里。包容、多元、温暖，是<strong>小白袜子女生</strong>内容运营的三条底线。</p>
+          <h3>面向未来：让白袜成为可持续的生活符号</h3>
+          <p>未来三年，我们将继续深耕少女生活方式这个垂直领域，做行业领先的原创影像品牌。计划包括：建立更完整的袜装穿搭知识库，推出年度主题影像企划，开放合作品牌联名与线下观影会，以及把社会责任落到环保材质与旧袜回收的倡议中。我们相信，真正有力量的品牌，不靠喧哗，而靠日复一日的匠心与真诚。<strong>小白袜子女生</strong>愿做这样一个安静的陪伴者，在你每一次低头系鞋带的时刻，恰好被看见。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 焦点影像 -->
+  <section class="xbs-section xbs-section--tint" id="xbs-focus">
+    <div class="xbs-wrap">
+      <div class="xbs-section-head">
+        <div>
+          <div class="xbs-kicker">FOCUS</div>
+          <h2>焦点影像：本周最值得细看的两组作品</h2>
+          <p>编辑部从近三十条更新中选出六条，兼顾实用与情绪。</p>
+        </div>
+        <a class="xbs-btn xbs-btn--soft" href="#xbs-flow">浏览全部视频</a>
+      </div>
+      <div class="xbs-focus-grid">
+        <article class="xbs-focus-main">
+          <img src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 450'%3E%3Crect width='800' height='450' fill='%23eef5f2'/%3E%3Ccircle cx='640' cy='80' r='90' fill='%23bfe3d6' opacity='.7'/%3E%3Crect x='60' y='250' width='260' height='14' rx='7' fill='%23a9cfc2'/%3E%3Crect x='60' y='286' width='180' height='14' rx='7' fill='%23cfe6dd'/%3E%3Cpath d='M300 330c0-52 42-84 84-84s84 32 84 84z' fill='%23ffffff'/%3E%3Cpath d='M336 330v-58c0-12 10-20 20-20s20 8 20 20v58' stroke='%23d97fa2' stroke-width='7' fill='none'/%3E%3Crect x='470' y='200' width='250' height='150' rx='14' fill='%23ffffff' opacity='.9'/%3E%3Cpath d='M492 232h190M492 262h150M492 292h170' stroke='%23b48fd6' stroke-width='8' stroke-linecap='round'/%3E%3Ctext x='60' y='120' font-size='30' fill='%233a2d34' font-family='sans-serif'%3E%E5%85%AD%E7%A7%8D%E7%99%BD%E8%A2%9C%E7%9A%84%E5%9B%9B%E5%AD%A3%E7%A9%BF%E6%B3%95%3C/text%3E%3C/svg%3E" alt="六种白袜的四季穿法教学影像封面">
+          <div class="xbs-focus-main-body">
+            <span class="xbs-tagline">本周主推 · 穿搭教程</span>
+            <h3>六种白袜的四季穿法：从校园到通勤的完整解法</h3>
+            <p>用一双基础白袜，搭出属于四季的轻盈感。创作者逐帧拆解袜长、鞋型与裤脚的关系，附赠收纳小技巧。</p>
+            <div class="xbs-meta"><span>栗子柚</span><span>12:40</span><span>3.8万次播放</span><span>1,204 收藏</span></div>
+          </div>
+        </article>
+        <div class="xbs-focus-side">
+          <article class="xbs-focus-item">
+            <img src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 240 160'%3E%3Crect width='240' height='160' fill='%23fdf2f6'/%3E%3Ccircle cx='180' cy='44' r='34' fill='%23f4b9cd'/%3E%3Cpath d='M40 118h120' stroke='%23d97fa2' stroke-width='8' stroke-linecap='round'/%3E%3Cpath d='M40 92h80' stroke='%23cfc3ea' stroke-width='8' stroke-linecap='round'/%3E%3C/svg%3E" alt="梅雨季室内晾袜的治愈影像封面">
+            <div>
+              <h4>梅雨季晾袜指南：让白袜三天干透的六个细节</h4>
+              <p>居家日常 · 实用技巧 · 08:12</p>
+            </div>
+          </article>
+          <article class="xbs-focus-item">
+            <img src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 240 160'%3E%3Crect width='240' height='160' fill='%23eef1fb'/%3E%3Cpath d='M30 130l50-46 40 30 60-52' stroke='%238fbfd8' stroke-width='7' fill='none' stroke-linecap='round'/%3E%3Ccircle cx='190' cy='52' r='16' fill='%23b48fd6'/%3E%3C/svg%3E" alt="城市漫步白袜街拍记录封面">
+            <div>
+              <h4>走完三条老巷：白袜与帆布鞋的城市漫步</h4>
+              <p>城市探索 · 影像随笔 · 11:05</p>
+            </div>
+          </article>
+          <article class="xbs-focus-item">
+            <img src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 240 160'%3E%3Crect width='240' height='160' fill='%23f7f4fd'/%3E%3Crect x='34' y='34' width='80' height='92' rx='10' fill='%23ffffff' stroke='%23cfc3ea' stroke-width='3'/%3E%3Cpath d='M54 58h40M54 78h28M54 98h34' stroke='%23b06a8a' stroke-width='5' stroke-linecap='round'/%3E%3Ccircle cx='176' cy='80' r='30' fill='%23bfe3d6'/%3E%3C/svg%3E" alt="袜装测评对比实验影像封面">
+            <div>
+              <h4>五款平价白袜实测：起球、回弹与耐洗度全对比</h4>
+              <p>深度测评 · 经验分享 · 15:32</p>
+            </div>
+          </article>
+          <article class="xbs-focus-item">
+            <img src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 240 160'%3E%3Crect width='240' height='160' fill='%23fbe4ee'/%3E%3Cpath d='M60 120c0-26 26-42 52-42s52 16 52 42z' fill='%23ffffff'/%3E%3Cpath d='M96 120V94c0-8 6-13 13-13s13 5 13 13v26' stroke='%23d97fa2' stroke-width='5' fill='none'/%3E%3Cpath d='M168 60c14 8 14 30 0 38' stroke='%23b48fd6' stroke-width='6' fill='none' stroke-linecap='round'/%3E%3C/svg%3E" alt="创作者访谈节目封面">
+            <div>
+              <h4>镜头之外：和三位创作者聊聊坚持与成长</h4>
+              <p>人物访谈 · 创作幕后 · 22:18</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 视频流 -->
+  <section class="xbs-section" id="xbs-flow">
+    <div class="xbs-wrap">
+      <div class="xbs-section-head">
+        <div>
+          <div class="xbs-kicker">CONTENT STREAM</div>
+          <h2>热门影像流：正在被大家反复观看的日常</h2>
+          <p>按标签筛选，找到你此刻最想看的那种温柔。</p>
+        </div>
+        <span class="xbs-tag">共 6 条精选 · 每日更新</span>
+      </div>
+      <div class="xbs-filter-bar" id="xbsFilterBar">
+        <button class="xbs-chip is-active" data-filter="all" type="button">全部</button>
+        <button class="xbs-chip" data-filter="穿搭" type="button">穿搭教程</button>
+        <button class="xbs-chip" data-filter="居家" type="button">居家治愈</button>
+        <button class="xbs-chip" data-filter="城市" type="button">城市探索</button>
+        <button class="xbs-chip" data-filter="访谈" type="button">人物访谈</button>
+      </div>
+      <div class="xbs-flow" id="xbsFlow">
+
+        <article class="xbs-card" data-tags="穿搭">
+          <div class="xbs-card-cover">
+            <img src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Crect width='480' height='270' fill='%23fdf2f6'/%3E%3Cpath d='M70 200h150' stroke='%23d97fa2' stroke-width='14' stroke-linecap='round'/%3E%3Cpath d='M70 156h96' stroke='%23cfc3ea' stroke-width='14' stroke-linecap='round'/%3E%3Ccircle cx='370' cy='90' r='52' fill='%23f4b9cd' opacity='.7'/%3E%3Crect x='300' y='160' width='120' height='70' rx='10' fill='%23ffffff'/%3E%3C/svg%3E" alt="堆堆袜三种折法的搭配教程封面">
+            <span class="xbs-cover-tag">穿搭教程</span>
+            <span class="xbs-dur">09:24</span>
+          </div>
+          <div class="xbs-card-body">
+            <h3>堆堆袜三种折法：让小腿线条更轻盈的低成本方案</h3>
+            <p>不换鞋、不换裤，只调整袜口的层次，就能让整体比例看起来不一样。</p>
+          </div>
+          <div class="xbs-author-line"><span class="xbs-avatar" style="background:#d97fa2">栗</span>栗子柚 · 3.1万次播放</div>
+          <div class="xbs-card-foot">
+            <span>11小时前</span>
+            <div class="xbs-acts">
+              <button class="xbs-act" data-like type="button">赞 862</button>
+              <button class="xbs-act" data-save type="button">收藏</button>
+              <button class="xbs-act" data-share type="button">分享</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="xbs-card" data-tags="居家">
+          <div class="xbs-card-cover">
+            <img src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Crect width='480' height='270' fill='%23eef5f2'/%3E%3Crect x='40' y='46' width='150' height='180' rx='12' fill='%23ffffff' stroke='%23bfe3d6' stroke-width='4'/%3E%3Cpath d='M70 92h90M70 126h60M70 160h76' stroke='%23a9cfc2' stroke-width='9' stroke-linecap='round'/%3E%3Ccircle cx='340' cy='120' r='64' fill='%23bfe3d6' opacity='.6'/%3E%3C/svg%3E" alt="雨天阳台收纳白袜的居家记录封面">
+            <span class="xbs-cover-tag">居家治愈</span>
+            <span class="xbs-dur">06:48</span>
+          </div>
+          <div class="xbs-card-body">
+            <h3>雨天的阳台收纳：把二十双白袜叠成同一种柔软</h3>
+            <p>一段几乎没有对白的影像，只有雨声、木质抽屉和手掌抚平布料的声响。</p>
+          </div>
+          <div class="xbs-author-line"><span class="xbs-avatar" style="background:#8fbfd8">南</span>南栀小院 · 2.4万次播放</div>
+          <div class="xbs-card-foot">
+            <span>昨天</span>
+            <div class="xbs-acts">
+              <button class="xbs-act" data-like type="button">赞 1,203</button>
+              <button class="xbs-act" data-save type="button">收藏</button>
+              <button class="xbs-act" data-share type="button">分享</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="xbs-card" data-tags="城市">
+          <div class="xbs-card-cover">
+            <img src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Crect width='480' height='270' fill='%23eef1fb'/%3E%3Cpath d='M0 210h480' stroke='%23cfc3ea' stroke-width='6'/%3E%3Crect x='60' y='90' width='70' height='120' fill='%23ffffff'/%3E%3Crect x='150' y='60' width='56' height='150' fill='%23dfe6f8'/%3E%3Crect x='230' y='110' width='90' height='100' fill='%23ffffff'/%3E%3Ccircle cx='380' cy='90' r='40' fill='%23f4b9cd' opacity='.65'/%3E%3C/svg%3E" alt="老巷子白袜街拍的探索记录封面">
+            <span class="xbs-cover-tag">城市探索</span>
+            <span class="xbs-dur">13:06</span>
+          </div>
+          <div class="xbs-card-body">
+            <h3>从南门到旧码头：一双白袜走过的初冬街巷</h3>
+            <p>沿着石板路慢慢走，记录沿途晾衣绳、猫和早晨的豆浆摊。</p>
+          </div>
+          <div class="xbs-author-line"><span class="xbs-avatar" style="background:#b48fd6">阿</span>阿棹在路上 · 1.9万次播放</div>
+          <div class="xbs-card-foot">
+            <span>2天前</span>
+            <div class="xbs-acts">
+              <button class="xbs-act" data-like type="button">赞 734</button>
+              <button class="xbs-act" data-save type="button">收藏</button>
+              <button class="xbs-act" data-share type="button">分享</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="xbs-card" data-tags="访谈">
+          <div class="xbs-card-cover">
+            <img src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Crect width='480' height='270' fill='%23f7f4fd'/%3E%3Ccircle cx='120' cy='130' r='56' fill='%23f4b9cd'/%3E%3Ccircle cx='240' cy='130' r='56' fill='%23bfe3d6'/%3E%3Ccircle cx='360' cy='130' r='56' fill='%23cfc3ea'/%3E%3C/svg%3E" alt="三位女性创作者对话的访谈封面">
+            <span class="xbs-cover-tag">人物访谈</span>
+            <span class="xbs-dur">22:18</span>
+          </div>
+          <div class="xbs-card-body">
+            <h3>我们为什么坚持拍袜子：三位创作者的一次长谈</h3>
+            <p>关于审美、疲惫和被看见的渴望，聊到最后都变成了笑声。</p>
+          </div>
+          <div class="xbs-author-line"><span class="xbs-avatar" style="background:#d97fa2">编</span>小白袜子编辑部 · 2.7万次播放</div>
+          <div class="xbs-card-foot">
+            <span>3天前</span>
+            <div class="xbs-acts">
+              <button class="xbs-act" data-like type="button">赞 956</button>
+              <button class="xbs-act" data-save type="button">收藏</button>
+              <button class="xbs-act" data-share type="button">分享</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="xbs-card" data-tags="穿搭">
+          <div class="xbs-card-cover">
+            <img src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Crect width='480' height='270' fill='%23fbe4ee'/%3E%3Cpath d='M120 60h240v150H120z' fill='%23ffffff'/%3E%3Cpath d='M150 96h180M150 130h120M150 164h150' stroke='%23d97fa2' stroke-width='9' stroke-linecap='round'/%3E%3Ccircle cx='420' cy='220' r='34' fill='%23cfc3ea'/%3E%3C/svg%3E" alt="白袜与校服鞋型搭配的清单封面">
+            <span class="xbs-cover-tag">穿搭教程</span>
+            <span class="xbs-dur">07:52</span>
+          </div>
+          <div class="xbs-card-body">
+            <h3>八双鞋配白袜的实测清单：哪些真的显腿直</h3>
+            <p>从乐福鞋到运动凉鞋，逐双上脚对比，附上不同袜长的视觉差异。</p>
+          </div>
+          <div class="xbs-author-line"><span class="xbs-avatar" style="background:#8fbfd8">小</span>小满的衣柜 · 4.3万次播放</div>
+          <div class="xbs-card-foot">
+            <span>4天前</span>
+            <div class="xbs-acts">
+              <button class="xbs-act" data-like type="button">赞 1,876</button>
+              <button class="xbs-act" data-save type="button">收藏</button>
+              <button class="xbs-act" data-share type="button">分享</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="xbs-card" data-tags="居家">
+          <div class="xbs-card-cover">
+            <img src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Crect width='480' height='270' fill='%23fdf7f9'/%3E%3Crect x='70' y='70' width='160' height='130' rx='14' fill='%23ffffff' stroke='%23ecdde5' stroke-width='4'/%3E%3Cpath d='M100 110h100M100 140h70M100 170h86' stroke='%23bfe3d6' stroke-width='8' stroke-linecap='round'/%3E%3Cpath d='M320 200c0-34 30-54 60-54s60 20 60 54z' fill='%23f4b9cd'/%3E%3C/svg%3E" alt="手洗白袜步骤演示的影像封面">
+            <span class="xbs-cover-tag">居家治愈</span>
+            <span class="xbs-dur">05:36</span>
+          </div>
+          <div class="xbs-card-body">
+            <h3>手洗白袜的正确顺序：从浸泡到阴干的九分钟</h3>
+            <p>不依赖复杂工具，只用一盆温水与耐心，让泛黄的白袜回到干净的样子。</p>
+          </div>
+          <div class="xbs-author-line"><span class="xbs-avatar" style="background:#b48fd6">木</span>木木的生活课 · 2.2万次播放</div>
+          <div class="xbs-card-foot">
+            <span>5天前</span>
+            <div class="xbs-acts">
+              <button class="xbs-act" data-like type="button">赞 1,041</button>
+              <button class="xbs-act" data-save type="button">收藏</button>
+              <button class="xbs-act" data-share type="button">分享</button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 专题 -->
+  <section class="xbs-section xbs-section--lilac" id="xbs-topic">
+    <div class="xbs-wrap">
+      <div class="xbs-section-head">
+        <div>
+          <div class="xbs-kicker">SERIES</div>
+          <h2>专题企划：把一件事做到足够深</h2>
+          <p>每个企划都由编辑部与创作者共同策划，持续更新。</p>
+        </div>
+        <span class="xbs-tag">更新中 3 个企划</span>
+      </div>
+      <div class="xbs-topic-grid">
+        <article class="xbs-topic">
+          <img src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 260'%3E%3Crect width='420' height='260' fill='%23fbe4ee'/%3E%3Cpath d='M0 200c90-50 160 20 240-20s120-40 180-10v90H0z' fill='%23f4b9cd'/%3E%3Ccircle cx='310' cy='70' r='44' fill='%23ffffff' opacity='.6'/%3E%3C/svg%3E" alt="四季白袜企划专题封面">
+          <div class="xbs-topic-body">
+            <h3>四季白袜计划</h3>
+            <p>春的薄棉、夏的网眼、秋的堆堆、冬的加厚，一年四季的袜装选择与穿搭记录。</p>
+            <span class="xbs-topic-status">已更新 18 集</span>
+          </div>
+        </article>
+        <article class="xbs-topic">
+          <img src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 260'%3E%3Crect width='420' height='260' fill='%23eef1fb'/%3E%3Crect x='40' y='60' width='90' height='140' fill='%23ffffff'/%3E%3Crect x='150' y='90' width='70' height='110' fill='%23dfe6f8'/%3E%3Crect x='240' y='40' width='110' height='160' fill='%23ffffff'/%3E%3C/svg%3E" alt="城市漫步影像企划专题封面">
+          <div class="xbs-topic-body">
+            <h3>城市漫步影像志</h3>
+            <p>用脚步和镜头记录街区，把白袜帆布鞋留在不同的路上。</p>
+            <span class="xbs-topic-status">已更新 9 集</span>
+          </div>
+        </article>
+        <article class="xbs-topic">
+          <img src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 260'%3E%3Crect width='420' height='260' fill='%23eef5f2'/%3E%3Ccircle cx='120' cy='130' r='56' fill='%23bfe3d6'/%3E%3Ccircle cx='260' cy='110' r='40' fill='%23a9cfc2'/%3E%3Cpath d='M40 210h340' stroke='%23ffffff' stroke-width='8' stroke-linecap='round'/%3E%3C/svg%3E" alt="创作幕后访谈企划专题封面">
+          <div class="xbs-topic-body">
+            <h3>镜头背后的她们</h3>
+            <p>采访长期专注日常影像的创作者，聊器材、选择与坚持。</p>
+            <span class="xbs-topic-status">已更新 6 集</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 创作者 -->
+  <section class="xbs-section" id="xbs-creator">
+    <div class="xbs-wrap">
+      <div class="xbs-section-head">
+        <div>
+          <div class="xbs-kicker">CREATORS</div>
+          <h2>创作者矩阵：把温柔拍成专业的人</h2>
+          <p>他们是内容生态的骨架，也是社区活力的来源。</p>
+        </div>
+        <button class="xbs-btn xbs-btn--soft" type="button" data-xbs-submit>申请成为创作者</button>
+      </div>
+      <div class="xbs-creator-grid">
+        <article class="xbs-creator">
+          <div class="xbs-avatar" style="background:linear-gradient(135deg,#f4b9cd,#d97fa2)">栗</div>
+          <h3>栗子柚</h3>
+          <div class="xbs-field">袜装搭配 · 校园日常</div>
+          <p>摄影系在读，擅长自然光与低饱和调色，坚持每周更新穿搭笔记。</p>
+          <div class="xbs-creator-data"><span><b>186</b>作品</span><span><b>8.2万</b>关注</span></div>
+          <button class="xbs-btn xbs-btn--soft" type="button" data-creator="栗子柚" style="width:100%;justify-content:center;">查看档案</button>
+        </article>
+        <article class="xbs-creator">
+          <div class="xbs-avatar" style="background:linear-gradient(135deg,#bfe3d6,#8fbfd8)">南</div>
+          <h3>南栀小院</h3>
+          <div class="xbs-field">居家治愈 · 收纳整理</div>
+          <p>把家务拍成安静影像，用极简构图和真实声响还原生活的质地。</p>
+          <div class="xbs-creator-data"><span><b>142</b>作品</span><span><b>6.7万</b>关注</span></div>
+          <button class="xbs-btn xbs-btn--soft" type="button" data-creator="南栀小院" style="width:100%;justify-content:center;">查看档案</button>
+        </article>
+        <article class="xbs-creator">
+          <div class="xbs-avatar" style="background:linear-gradient(135deg,#cfc3ea,#b48fd6)">阿</div>
+          <h3>阿棹在路上</h3>
+          <div class="xbs-field">城市探索 · 行走纪实</div>
+          <p>喜欢在清晨出门，记录街道醒来的样子，作品节奏舒缓、细节丰富。</p>
+          <div class="xbs-creator-data"><span><b>98</b>作品</span><span><b>4.1万</b>关注</span></div>
+          <button class="xbs-btn xbs-btn--soft" type="button" data-creator="阿棹在路上" style="width:100%;justify-content:center;">查看档案</button>
+        </article>
+        <article class="xbs-creator">
+          <div class="xbs-avatar" style="background:linear-gradient(135deg,#f0dc9c,#e9a93b)">木</div>
+          <h3>木木的生活课</h3>
+          <div class="xbs-field">实用技巧 · 洗护科普</div>
+          <p>做过五年纺织品检测，用实验和数据讲清楚白袜起球、泛黄的真相。</p>
+          <div class="xbs-creator-data"><span><b>76</b>作品</span><span><b>5.3万</b>关注</span></div>
+          <button class="xbs-btn xbs-btn--soft" type="button" data-creator="木木的生活课" style="width:100%;justify-content:center;">查看档案</button>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 故事随笔 -->
+  <section class="xbs-section xbs-section--tint" id="xbs-story">
+    <div class="xbs-wrap">
+      <div class="xbs-section-head">
+        <div>
+          <div class="xbs-kicker">STORIES</div>
+          <h2>故事随笔：影像之外的文字记录</h2>
+          <p>有些细节镜头装不下，就用文字轻轻写下来。</p>
+        </div>
+        <a class="xbs-btn xbs-btn--soft" href="#xbs-review">看看大家怎么说</a>
+      </div>
+      <div class="xbs-story-grid">
+        <article class="xbs-story">
+          <h3>那双被洗到起毛的白袜</h3>
+          <p>我留着高一买的第一双白袜，边口已经松了，脚后跟也洗出了小小的洞。每次整理抽屉都想扔掉，手却停住。它陪我走过早自习的走廊，走过第一次独自坐地铁的下午。后来我们拍了一期「旧袜子该不该留」的影像，评论区吵得很温柔，有人说该换新，有人说留着吧，那是最笨拙也最认真的一段日子。</p>
+          <p class="xbs-story-sign">—— 编辑部 · 记录于初冬</p>
+        </article>
+        <article class="xbs-story">
+          <h3>拍摄现场：光在下午四点最好</h3>
+          <p>拍袜子最难的不是构图，是把那种轻盈拍出来。我们试过棚灯，出来太硬；试过阴天窗边，又偏灰。最后发现下午四点的斜光是答案，白袜边缘会有一圈很淡的暖色。那天栗子柚拍到第三十七条才说可以，收工的时候她把袜子叠好放进袋子，说下次想拍一组晾在院子里的。我想，这就是创作的耐心。</p>
+          <p class="xbs-story-sign">—— 影像组 · 幕后手记</p>
+        </article>
+        <article class="xbs-story">
+          <h3>一位用户留言引发的企划</h3>
+          <p>有人留言说，自己穿白袜总是被说太幼稚，后来干脆只敢在家里穿。那条留言被很多用户回复，大家分享各自的顾虑与和解。我们把这类声音整理成了「穿你想穿的」企划，邀请不同年龄、不同职业的女性出镜，聊自己的选择。内容上线后，后台收到最多的一句话是：原来不是我有问题。这让我们更确信，做内容的意义有时就这么简单。</p>
+          <p class="xbs-story-sign">—— 社区运营 · 企划札记</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 影像墙 -->
+  <section class="xbs-section" id="xbs-wall">
+    <div class="xbs-wrap">
+      <div class="xbs-section-head">
+        <div>
+          <div class="xbs-kicker">GALLERY</div>
+          <h2>用户影像墙：来自社区的日常切片</h2>
+          <p>本周精选九张投稿，风格各异，都是真实的生活。</p>
+        </div>
+        <button class="xbs-btn xbs-btn--solid" type="button" data-xbs-submit>上传我的作品</button>
+      </div>
+      <div class="xbs-wall">
+        <figure class="xbs-wall-l">
+          <img src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 275'%3E%3Crect width='400' height='275' fill='%23fbe4ee'/%3E%3Cpath d='M0 220h400' stroke='%23f4b9cd' stroke-width='8'/%3E%3Ccircle cx='310' cy='70' r='46' fill='%23ffffff' opacity='.7'/%3E%3Cpath d='M70 190c0-28 26-44 52-44s52 16 52 44z' fill='%23ffffff'/%3E%3C/svg%3E" alt="窗边晾晒白袜的午后影像">
+          <figcaption>窗边的午后 · 投稿@小满</figcaption>
+        </figure>
+        <figure class="xbs-wall-m">
+          <img src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 190'%3E%3Crect width='300' height='190' fill='%23eef1fb'/%3E%3Crect x='40' y='60' width='80' height='100' fill='%23ffffff'/%3E%3Crect x='150' y='40' width='60' height='120' fill='%23dfe6f8'/%3E%3C/svg%3E" alt="街角白袜与帆布鞋的街拍影像">
+          <figcaption>街角 · 投稿@阿棹</figcaption>
+        </figure>
+        <figure class="xbs-wall-s">
+          <img src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect width='200' height='200' fill='%23eef5f2'/%3E%3Ccircle cx='100' cy='100' r='52' fill='%23bfe3d6'/%3E%3C/svg%3E" alt="整理袜子的手部特写影像">
+          <figcaption>整理 · 投稿@木木</figcaption>
+        </figure>
+        <figure class="xbs-wall-s">
+          <img src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect width='200' height='200' fill='%23f7f4fd'/%3E%3Cpath d='M40 140c40-46 80-46 120 0' stroke='%23cfc3ea' stroke-width='10' fill='none' stroke-linecap='round'/%3E%3C/svg%3E" alt="袜口蕾丝细节的微距影像">
+          <figcaption>细节 · 投稿@南栀</figcaption>
+        </figure>
+        <figure class="xbs-wall-m">
+          <img src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 190'%3E%3Crect width='300' height='190' fill='%23fdf2f6'/%3E%3Cpath d='M30 150h120' stroke='%23d97fa2' stroke-width='12' stroke-linecap='round'/%3E%3Cpath d='M30 110h80' stroke='%23cfc3ea' stroke-width='12' stroke-linecap='round'/%3E%3Ccircle cx='240' cy='70' r='34' fill='%23f4b9cd'/%3E%3C/svg%3E" alt="白袜与格子裙的搭配影像">
+          <figcaption>搭配 · 投稿@栗子柚</figcaption>
+        </figure>
+        <figure class="xbs-wall-s">
+          <img src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect width='200' height='200' fill='%23fdf7f9'/%3E%3Cpath d='M50 150V80l50-30 50 30v70z' fill='%23ffffff' stroke='%23ecdde5' stroke-width='4'/%3E%3C/svg%3E" alt="抽屉里叠好的白袜影像">
+          <figcaption>收纳 · 投稿@阿棹</figcaption>
+        </figure>
+        <figure class="xbs-wall-s">
+          <img src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect width='200' height='200' fill='%23eef1fb'/%3E%3Cpath d='M100 40l16 34 38 4-28 26 8 38-34-20-34 20 8-38-28-26 38-4z' fill='%23b48fd6' opacity='.7'/%3E%3C/svg%3E" alt="手工刺绣白袜的作品影像">
+          <figcaption>手作 · 投稿@小满</figcaption>
+        </figure>
+        <figure class="xbs-wall-m">
+          <img src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 190'%3E%3Crect width='300' height='190' fill='%23fbe4ee'/%3E%3Cpath d='M40 160c40-60 100-60 140-20s60 20 80-10' stroke='%23d97fa2' stroke-width='8' fill='none' stroke-linecap='round'/%3E%3C/svg%3E" alt="清晨院子里晾衣绳的影像">
+          <figcaption>清晨 · 投稿@木木</figcaption>
+        </figure>
+        <figure class="xbs-wall-s">
+          <img src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect width='200' height='200' fill='%23eef5f2'/%3E%3Crect x='50' y='60' width='100' height='90' rx='10' fill='%23ffffff' stroke='%23bfe3d6' stroke-width='4'/%3E%3C/svg%3E" alt="书桌上的白袜与信纸影像">
+          <figcaption>书桌 · 投稿@南栀</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- 用户评价 -->
+  <section class="xbs-section xbs-section--lilac" id="xbs-review">
+    <div class="xbs-wrap">
+      <div class="xbs-section-head">
+        <div>
+          <div class="xbs-kicker">VOICES</div>
+          <h2>用户怎么说：来自社区的真实声音</h2>
+          <p>不同身份、不同年龄，各自在小白袜子女生找到需要的东西。</p>
+        </div>
+        <span class="xbs-tag">综合口碑 4.9 / 5</span>
+      </div>
+      <div class="xbs-review-grid">
+        <article class="xbs-review">
+          <div class="xbs-review-head"><span class="xbs-avatar" style="background:#d97fa2">林</span><div><b>林小满</b><span>大学生 · 关注 8 个月</span></div></div>
+          <div class="xbs-review-stars">★★★★★</div>
+          <p>第一次是搜「白袜怎么配乐福鞋」进来的，结果看完一整个下午。视频讲得很实，不是那种只给结论的，会把为什么这样搭说清楚，这点特别加分。</p>
+        </article>
+        <article class="xbs-review">
+          <div class="xbs-review-head"><span class="xbs-avatar" style="background:#8fbfd8">周</span><div><b>周女士</b><span>上班族 · 关注 1 年</span></div></div>
+          <div class="xbs-review-stars">★★★★★</div>
+          <p>很喜欢这里的节奏。没有吵闹的背景音乐，也没有夸张标题，通勤路上看一集刚好。居家那几期我反复看了很多次，很治愈。</p>
+        </article>
+        <article class="xbs-review">
+          <div class="xbs-review-head"><span class="xbs-avatar" style="background:#b48fd6">阿</span><div><b>阿棠</b><span>自由插画师 · 关注 5 个月</span></div></div>
+          <div class="xbs-review-stars">★★★★☆</div>
+          <p>画面质感真的在线，配色舒服。唯一想说的是希望专题更新再快一点，每次都要等好久。不过等到的内容都对得起等待。</p>
+        </article>
+        <article class="xbs-review">
+          <div class="xbs-review-head"><span class="xbs-avatar" style="background:#bfe3d6">许</span><div><b>许一南</b><span>中学老师 · 关注 3 个月</span></div></div>
+          <div class="xbs-review-stars">★★★★★</div>
+          <p>带班里女孩看了一期关于「穿你想穿的」的访谈，讨论得很认真。这个平台的内容边界把握得很好，家长也放心，很难得。</p>
+        </article>
+        <article class="xbs-review">
+          <div class="xbs-review-head"><span class="xbs-avatar" style="background:#e9a93b">小</span><div><b>小鹿</b><span>兼职买手 · 关注 2 年</span></div></div>
+          <div class="xbs-review-stars">★★★★★</div>
+          <p>测评做得很专业，五款袜子对比那期我直接转给了同行。数据标得清楚，洗护原理也解释得通俗，算是这个领域的官方参考了。</p>
+        </article>
+        <article class="xbs-review">
+          <div class="xbs-review-head"><span class="xbs-avatar" style="background:#f4b9cd">程</span><div><b>程岸</b><span>摄影爱好者 · 关注 7 个月</span></div></div>
+          <div class="xbs-review-stars">★★★★★</div>
+          <p>作为同行，很佩服他们的布光。白袜这种高亮低对比的题材很难拍，他们能保留纹理又不过曝，看得出基本功扎实，值得学习。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 动态与伙伴 -->
+  <section class="xbs-section" id="xbs-dynamic">
+    <div class="xbs-wrap">
+      <div class="xbs-section-head">
+        <div>
+          <div class="xbs-kicker">UPDATES</div>
+          <h2>企业动态与合作伙伴</h2>
+          <p>官方发布的最新消息，以及一路同行的伙伴。</p>
+        </div>
+      </div>
+      <div class="xbs-split">
+        <div class="xbs-news">
+          <h3>近期动态</h3>
+          <ul>
+            <li><time>2026.11.16</time><div><b>冬季「小白袜子写真企划」正式开启征稿</b><span>面向所有用户征集日常影像，入选作品将在专题页展示。</span></div></li>
+            <li><time>2026.11.08</time><div><b>第 4 期创作者线下见面会开放报名</b><span>限额 60 人，包含拍摄分享与自由交流环节。</span></div></li>
+            <li><time>2026.10.29</time><div><b>与两家棉纺品牌达成原创内容合作</b><span>合作聚焦材质科普与旧袜回收倡议。</span></div></li>
+            <li><time>2026.10.12</time><div><b>影像知识库「袜装搭配手册」上线</b><span>收录 48 条常见搭配问题与实操建议。</span></div></li>
+            <li><time>2026.09.25</time><div><b>社区投稿系统升级，支持高清原片上传</b><span>优化了审核流程与反馈速度。</span></div></li>
+          </ul>
+        </div>
+        <aside class="xbs-partner">
+          <h3>合作品牌与伙伴</h3>
+          <p>我们与重视品质与责任的品牌同行，共同推动原创内容与环保实践。</p>
+          <div class="xbs-partner-list">
+            <span>素白棉品</span>
+            <span>棉言生活</span>
+            <span>晨光织物</span>
+            <span>南巷工作室</span>
+            <span>旧物新生计划</span>
+            <span>城市影像联盟</span>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="xbs-section xbs-section--tint" id="xbs-faq">
+    <div class="xbs-wrap">
+      <div class="xbs-section-head">
+        <div>
+          <div class="xbs-kicker">FAQ</div>
+          <h2>常见问题</h2>
+          <p>关于内容、投稿与合作的说明，如果没有找到答案，欢迎直接联系我们。</p>
+        </div>
+      </div>
+      <div class="xbs-faq">
+        <details open>
+          <summary>小白袜子女生是一个什么样的平台？</summary>
+          <p>我们是专注于少女生活方式影像的原创视频品牌，官方网站集中展示品牌企划、精选内容、创作者档案与社区动态。平台内容以日常记录、穿搭教程、居家治愈与城市探索为主，坚持原创与正版出品。</p>
+        </details>
+        <details>
+          <summary>如何向平台投稿自己的影像作品？</summary>
+          <p>点击页面上任意「投稿入口」按钮，填写作品标题、简介与联系方式即可。建议提交 16:9 比例、清晰度较高的文件，并附上简短的创作说明。编辑团队通常在五个工作日内给出反馈。</p>
+        </details>
+        <details>
+          <summary>投稿有什么内容要求？</summary>
+          <p>我们希望作品真实、有细节、有个人视角。拒绝抄袭、搬运与夸大宣传；涉及他人肖像需获得授权。题材不限，但请与日常影像、穿搭记录或生活方式相关，符合社区友好氛围。</p>
+        </details>
+        <details>
+          <summary>平台的内容是原创的吗？</summary>
+          <p>是。我们与签约创作者共同策划与拍摄，所有上线内容均经过授权确认。转载或二次使用请联系官方邮箱获取书面许可，这也是我们维护内容生态的基本方式。</p>
+        </details>
+        <details>
+          <summary>创作者合作有哪些形式？</summary>
+          <p>包括长期签约、单期企划合作、品牌联名与线下活动参与等形式。我们更看重内容契合度与持续输出能力，合作条款透明，合作流程从选题会到成片审核都有明确节点。</p>
+        </details>
+        <details>
+          <summary>能否申请举办线下观影或分享活动？</summary>
+          <p>欢迎。我们鼓励城市创作者组织小型分享会，平台可提供内容授权与部分物料支持。请通过联系邮箱提交活动计划，说明时间、地点、预计人数与内容主题。</p>
+        </details>
+        <details>
+          <summary>遇到内容或账号问题如何反馈？</summary>
+          <p>可通过页面底部的联系邮箱提交，注明具体链接与问题描述。涉及侵权投诉请附上权属证明，我们会在收到后尽快核查处理，并对举报人信息严格保密。</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- 联系 -->
+  <section class="xbs-section" id="xbs-contact">
+    <div class="xbs-wrap">
+      <div class="xbs-section-head">
+        <div>
+          <div class="xbs-kicker">CONTACT</div>
+          <h2>联系我们：投稿、合作与建议</h2>
+          <p>每一条认真写下的消息，都会被认真读完。</p>
+        </div>
+      </div>
+      <div class="xbs-contact">
+        <div class="xbs-contact-card">
+          <h3>官方联系渠道</h3>
+          <p>作为持续运营的原创视频品牌，我们保持公开透明的沟通方式，欢迎创作者、品牌与用户随时联系。</p>
+          <ul class="xbs-contact-list">
+            <li><b>内容合作</b><span>brand@xiaobaisocks.cn</span></li>
+            <li><b>投稿咨询</b><span>submit@xiaobaisocks.cn</span></li>
+            <li><b>媒体联络</b><span>press@xiaobaisocks.cn</span></li>
+            <li><b>办公地址</b><span>杭州市拱墅区影像创意园 3 号楼 402</span></li>
+            <li><b>工作时间</b><span>周一至周五 10:00 - 18:30</span></li>
+          </ul>
+          <div class="xbs-contact-actions">
+            <button class="xbs-btn xbs-btn--solid" type="button" data-xbs-submit>我要投稿</button>
+            <button class="xbs-btn xbs-btn--ghost" type="button" data-copy>复制联系邮箱</button>
+          </div>
+        </div>
+        <div class="xbs-cta-panel">
+          <h3>成为内容生态的一部分</h3>
+          <p>无论你是擅长自然光的摄影师、喜欢记录家务的普通人，还是想认真拍点东西的学生，这里都有位置。我们提供创作指南、编辑建议与稳定的发布支持，让好内容被更多人看见。</p>
+          <button class="xbs-btn" type="button" data-xbs-submit>提交创作者申请</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="xbs-footer">
+  <div class="xbs-wrap">
+    <div class="xbs-footer-grid">
+      <div>
+        <div class="xbs-logo">
+          <span class="xbs-logo-mark">白</span>
+          <span class="xbs-logo-text"><b>小白袜子女生</b><span>XIAOBAI SOCKS</span></span>
+        </div>
+        <p style="margin-top:14px;color:#c8b2bd;">小白袜子女生官方网站，专注少女生活方式影像的原创视频品牌。持续运营，坚持真实、温暖与专业，与创作者一起构建有影响力的内容生态。</p>
+      </div>
+      <div>
+        <h4>内容</h4>
+        <ul>
+          <li><a href="#xbs-focus">焦点影像</a></li>
+          <li><a href="#xbs-flow">热门视频流</a></li>
+          <li><a href="#xbs-topic">专题企划</a></li>
+          <li><a href="#xbs-wall">用户影像墙</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>关于</h4>
+        <ul>
+          <li><a href="#xbs-about">品牌故事</a></li>
+          <li><a href="#xbs-creator">创作者矩阵</a></li>
+          <li><a href="#xbs-dynamic">企业动态</a></li>
+          <li><a href="#xbs-faq">常见问题</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>参与</h4>
+        <ul>
+          <li><a href="#xbs-contact">投稿与合作</a></li>
+          <li><a href="#xbs-review">用户口碑</a></li>
+          <li><a href="#xbs-story">故事随笔</a></li>
+          <li><a href="#xbs-top">回到顶部</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="xbs-footer-bottom">
+      <span>© 2026 小白袜子女生 · 官方网站 | 版权所有 | 持续运营中</span>
+      <span>浙ICP备2026011842号-1 · 浙公网安备33010502001188号</span>
+    </div>
+  </div>
+</footer>
+
+<div class="xbs-toast" id="xbsToast" role="status" aria-live="polite"></div>
+<button class="xbs-to-top" id="xbsToTop" aria-label="回到顶部">↑</button>
+
+<div class="xbs-modal" id="xbsModal" role="dialog" aria-modal="true" aria-labelledby="xbsModalTitle">
+  <div class="xbs-modal-card">
+    <button class="xbs-modal-close" id="xbsModalClose" aria-label="关闭弹窗">×</button>
+    <h3 id="xbsModalTitle">投稿与申请</h3>
+    <p id="xbsModalText">请将作品标题、简介与联系方式发送至 submit@xiaobaisocks.cn，编辑团队会在五个工作日内回复。也可在邮件中注明希望参与的企划方向。</p>
+    <div class="xbs-share-row" id="xbsModalActions"></div>
+  </div>
+</div>
+
+<script>
+(function(){
+  "use strict";
+  var toast = document.getElementById('xbsToast');
+  var toastTimer = null;
+  function showToast(msg){
+    toast.textContent = msg;
+    toast.classList.add('is-show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toast.classList.remove('is-show'); }, 2200);
+  }
+
+  /* 移动端导航 */
+  var burger = document.getElementById('xbsBurger');
+  var nav = document.getElementById('xbsNav');
+  burger.addEventListener('click', function(){
+    var open = nav.classList.toggle('is-open');
+    burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  nav.addEventListener('click', function(e){
+    if(e.target.tagName === 'A' && window.innerWidth <= 760){
+      nav.classList.remove('is-open');
+      burger.setAttribute('aria-expanded','false');
+    }
+  });
+
+  /* 搜索反馈 */
+  var searchForm = document.getElementById('xbsSearch');
+  var searchInput = document.getElementById('xbsSearchInput');
+  var searchFeedback = document.getElementById('xbsSearchFeedback');
+  var sampleIndex = ['堆堆袜折法','梅雨季晾袜指南','城市漫步影像志','栗子柚','白袜测评','手洗白袜顺序','创作者访谈'];
+  function runSearch(){
+    var q = searchInput.value.trim();
+    if(!q){
+      searchFeedback.textContent = '输入关键词试试，例如「堆堆袜」「收纳」「访谈」。';
+      searchFeedback.classList.add('is-open');
+      return;
+    }
+    var hit = sampleIndex.filter(function(item){ return item.indexOf(q) !== -1; });
+    if(hit.length){
+      searchFeedback.textContent = '找到 ' + hit.length + ' 条相关内容：' + hit.join('、') + '。';
+    }else{
+      var rand = sampleIndex[Math.floor(Math.random()*sampleIndex.length)];
+      searchFeedback.textContent = '暂未找到「' + q + '」的直接结果，为你推荐：' + rand + '。';
+    }
+    searchFeedback.classList.add('is-open');
+  }
+  searchForm.addEventListener('submit', runSearch);
+  document.getElementById('xbsSearchBtn').addEventListener('click', runSearch);
+  searchInput.addEventListener('input', function(){
+    if(searchInput.value.trim().length === 0){
+      searchFeedback.classList.remove('is-open');
+    }
+  });
+  document.addEventListener('click', function(e){
+    if(!searchForm.contains(e.target)) searchFeedback.classList.remove('is-open');
+  });
+
+  /* 标签筛选 */
+  var chips = document.querySelectorAll('#xbsFilterBar .xbs-chip');
+  var cards = document.querySelectorAll('#xbsFlow .xbs-card');
+  chips.forEach(function(chip){
+    chip.addEventListener('click', function(){
+      chips.forEach(function(c){ c.classList.remove('is-active'); });
+      chip.classList.add('is-active');
+      var f = chip.getAttribute('data-filter');
+      cards.forEach(function(card){
+        var tags = card.getAttribute('data-tags') || '';
+        if(f === 'all' || tags.indexOf(f) !== -1){
+          card.classList.remove('is-hidden');
+        }else{
+          card.classList.add('is-hidden');
+        }
+      });
+    });
+  });
+
+  /* 点赞与收藏 */
+  document.querySelectorAll('[data-like]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var text = btn.textContent;
+      var num = parseInt(text.replace(/[^0-9]/g,''), 10) || 0;
+      if(btn.classList.contains('is-liked')){
+        btn.classList.remove('is-liked');
+        btn.textContent = '赞 ' + (num - 1);
+      }else{
+        btn.classList.add('is-liked');
+        btn.textContent = '赞 ' + (num + 1);
+        showToast('已点赞，感谢你的支持');
+      }
+    });
+  });
+  document.querySelectorAll('[data-save]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var saved = btn.classList.toggle('is-saved');
+      btn.textContent = saved ? '已收藏' : '收藏';
+      showToast(saved ? '已加入我的收藏' : '已取消收藏');
+    });
+  });
+
+  /* 分享弹窗 */
+  var modal = document.getElementById('xbsModal');
+  var modalTitle = document.getElementById('xbsModalTitle');
+  var modalText = document.getElementById('xbsModalText');
+  var modalActions = document.getElementById('xbsModalActions');
+  function openModal(title, text, actions){
+    modalTitle.textContent = title;
+    modalText.textContent = text;
+    modalActions.innerHTML = '';
+    (actions || []).forEach(function(label){
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.textContent = label;
+      b.addEventListener('click', function(){ showToast('已生成「' + label + '」分享提示'); });
+      modalActions.appendChild(b);
+    });
+    modal.classList.add('is-open');
+  }
+  function closeModal(){ modal.classList.remove('is-open'); }
+  document.getElementById('xbsModalClose').addEventListener('click', closeModal);
+  modal.addEventListener('click', function(e){ if(e.target === modal) closeModal(); });
+
+  document.querySelectorAll('[data-share]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      openModal('分享这条影像', '把喜欢的日常影像分享给朋友，一起收藏这份温柔。', ['微信','微博','QQ','复制链接']);
+      var copyBtn = modalActions.lastElementChild;
+      copyBtn.addEventListener('click', copyEmail);
+    });
+  });
+
+  /* 复制链接 */
+  function copyText(text, okMsg){
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(text).then(function(){
+        showToast(okMsg);
+      }).catch(function(){
+        showToast('复制失败，请手动选择文本');
+      });
+    }else{
+      showToast('当前环境不支持自动复制');
+    }
+  }
+  function copyEmail(){ copyText('brand@xiaobaisocks.cn', '联系邮箱已复制'); }
+  document.querySelectorAll('[data-copy]').forEach(function(btn){
+    btn.addEventListener('click', copyEmail);
+  });
+
+  /* 投稿弹窗 */
+  document.querySelectorAll('[data-xbs-submit]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      openModal('投稿与申请', '请将作品标题、简介与联系方式发送至 submit@xiaobaisocks.cn，编辑团队会在五个工作日内回复。也可在邮件中注明希望参与的企划方向。', ['复制投稿邮箱','关闭']);
+      var first = modalActions.firstElementChild;
+      if(first){
+        first.addEventListener('click', function(){
+          copyText('submit@xiaobaisocks.cn','投稿邮箱已复制');
+        });
+      }
+      if(modalActions.lastElementChild){
+        modalActions.lastElementChild.addEventListener('click', closeModal);
+      }
+    });
+  });
+
+  /* 创作者档案弹窗 */
+  document.querySelectorAll('[data-creator]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var name = btn.getAttribute('data-creator');
+      openModal(name + ' · 创作者档案', name + ' 是小白袜子女生的签约创作者，长期输出日常影像与实用内容。档案包含擅长领域、代表作品与合作方式说明，欢迎关注并留言交流。', ['关注','复制主页链接']);
+      if(modalActions.firstElementChild){
+        modalActions.firstElementChild.addEventListener('click', function(){ showToast('已关注 ' + name); });
+      }
+      if(modalActions.lastElementChild){
+        modalActions.lastElementChild.addEventListener('click', function(){ showToast('主页链接已复制'); });
+      }
+    });
+  });
+
+  /* 回到顶部 */
+  var toTop = document.getElementById('xbsToTop');
+  window.addEventListener('scroll', function(){
+    if(window.scrollY > 520){ toTop.classList.add('is-show'); }
+    else{ toTop.classList.remove('is-show'); }
+  }, {passive:true});
+  toTop.addEventListener('click', function(){
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+})();
+</script>
+</body>
+  </html>
